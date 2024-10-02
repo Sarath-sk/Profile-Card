@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.idcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6rem;
+    text-align: center;
+    
+    width: 21%;
+    height: 26rem;
+    border: 0.1rem solid black;
+    box-shadow: 0 1rem 3rem cadetblue;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.profile img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 15rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.profile{
+    background-color: rgb(4, 30, 79);
+}
+
+.name{
+    color:rgb(3, 27, 71);
+    margin-top: 1rem;
+}
+
+.surname{
+    color: black;
+}
+
+#empid{
+    margin-top: 0.7rem;
+}
+
+.org-logo img{
+    width: 13rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem
+}
+
+

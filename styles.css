@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    display: flex;
+    text-align:left;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 9rem;
+    border: 0.5rem solid white;
+    /* border-inline: 1rem solid red; */
+    width: 50%;
+    padding: 4rem 5rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 226, 216);
+    /* background-image: url(g.avif); */
+}
+
+img{
+    width: 11rem;
+    height: 11rem;
+    margin-right: 2rem;
+    border: 0.5rem solid rgb(231, 228, 228);
+    border-radius: 15rem;
+}
+
+button{
+    margin-top: 1rem;
+    padding: 0.8rem 1.6rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn{
+    display: flex;
+    gap: 2rem;
+}
+
+#follow{
+    background-color:cadetblue;
+}
+
+#profile{
+    background-color: darkgoldenrod;
+}
+
+.data-details{
+    margin-top: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+
+    
+}
+
+.profile{
+    margin-bottom: 1rem;
+
+}
+
+.profile p{
+    color: grey;
+}
+
+.decorated{
+    color: darkgoldenrod;
+}
+
+.decor{
+    color: cadetblue;
+}
+
+#data-num{
+    font-weight: bold;
+}
+
+.line{
+    width: 2px;
+    height: 2rem;
+    background-color: gray;
+
+}
+
+.id-card{
+    margin-top: 3rem;
+}
+
+
